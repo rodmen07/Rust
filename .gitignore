@@ -1,0 +1,37 @@
+# Cargo build artifacts
+/target/
+**/target/
+Cargo.lock
+
+# Rust-analyzer/flycheck temporary files
+**/flycheck*/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Backup files
+*.bak
+*.tmp
+
+# OS files
+Thumbs.db
+
+# Debug symbols
+*.pdb
+
+# Compiled files
+*.exe
+*.o
+*.so
+*.dylib
+*.dll
+*.a
+
+# Test coverage
+*.profraw
+*.profdata
